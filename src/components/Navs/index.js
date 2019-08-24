@@ -3,23 +3,19 @@ import "./style.css";
 
 function Navbar() {
     return (
-        <div className="row">
+        <div className="row navbar-kudri">
             <div className="col-3">
-                <h3 className="text-center salon-name">Kudri Salon</h3>
+                <a href="#" className="salon-name">
+                    <h1 className="text-center">Kudri Salon</h1>
+                </a>
             </div>
             <div className="col-9">
             <ul className="nav justify-content-end">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">Active</a>
+                    <a className="nav-link active" href="#">Porfolio</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link disabled" href="#" tabIndex="-1" aria-disabled="true">Disabled</a>
+                    <a className="nav-link" href="#">Contacts</a>
                 </li>
             </ul>
             </div>
