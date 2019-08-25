@@ -23,5 +23,10 @@
 
 .kudri-list .list-group-item:hover {
     background-color: rgba(72, 72, 72, 0.7);
-    border-color: #ffffff;
+    color: #FFC0CB;
+}
+
+.kudri-button .btn:hover {
+    background-color: #FFC0CB;
+    color: rgba(72, 72, 72, 0.7);
 }

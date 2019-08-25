@@ -31,10 +31,10 @@ function Jumbotron() {
                     
                     {/* <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> */}
                 </div>
-                <div className="row">
-                        <div className="col-3">
+                <div className="row kudri-button justify-content-center">
+                    <div className="col-2">
                         <button type="button" className="btn btn-secondary btn-lg">View Portfolio</button>
-                        </div>
+                    </div>
                 </div>
             </div>
             </div>
