@@ -1,13 +1,27 @@
 .jumbotron {
-    background-image: url("./salon3.png")
+    background-image: url("./salon3.png");
+    height: 450px;
 }
 
 .jumbotron-kudri {
-    height: 350px;
+    height: 450px;
 }
 
 .jumbotron .container {
     background-color: rgba(72, 72, 72, 0.7);
     color: #ffffff;
     font-family: "Quicksand";
+}
+
+.kudri-list .active {
+    border-color: #ffffff;
+}
+
+.kudri-list .list-group-item {
+    background-color: rgba(72, 72, 72, 0.7);
+}
+
+.kudri-list .list-group-item:hover {
+    background-color: rgba(72, 72, 72, 0.7);
+    border-color: #ffffff;
 }
