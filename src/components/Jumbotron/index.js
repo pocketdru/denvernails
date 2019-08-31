@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import './jumbotron-my-ph.png'
+import jumbotronMyPh from './jumbotron-my-ph1.png';
 
 function Jumbotron() {
     return (
@@ -22,7 +22,7 @@ function Jumbotron() {
                         <div className="col-6 kudri-list">
                             <ul className="list-group">
                                 <li className="list-group-item">
-                                    {/* <img src="" class="img-fluid" alt="Responsive image"/> */}
+                                    <img src={jumbotronMyPh} className="img-fluid" alt="Responsive image"/>
                                 </li>
                                 {/* <li className="list-group-item">Vestibulum at eros</li> */}
                             </ul>
