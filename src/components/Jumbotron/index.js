@@ -7,7 +7,7 @@ function Jumbotron() {
             <div className="col-12">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="display-4 text-center">Our services</h1>
+                    <h2 className="display-4 text-center">My services</h2>
                     <div className="row">
                         <div className="col-6 kudri-list">
                             <ul className="list-group">
