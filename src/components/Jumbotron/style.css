@@ -1,10 +1,10 @@
 .jumbotron {
     background-image: url("./salon3.png");
-    height: 450px;
+    height: 530px;
 }
 
 .jumbotron-kudri {
-    height: 450px;
+    height: 530px;
 }
 
 .jumbotron .container {
@@ -24,6 +24,11 @@
 .kudri-list .list-group-item:hover {
     background-color: rgba(72, 72, 72, 0.7);
     color: #FFC0CB;
+}
+
+.kudri-button .btn {
+    text-align: center;
+    font-size: 1em;
 }
 
 .kudri-button .btn:hover {
