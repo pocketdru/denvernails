@@ -3,7 +3,9 @@ import "./style.css";
 
 function Contacts() {
     return (
-       <div></div>
+       <div className="row contact-kudri">
+           {/* <col classNam></col> */}
+       </div>
         
     )
 }
