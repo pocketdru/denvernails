@@ -9,20 +9,20 @@ function Jumbotron() {
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <h2 className="text-center">My services</h2>
-                    <div className="row">
-                        <div className="col-6 kudri-list">
+                    <div className="row justify-content-center">
+                        <div className="col-4 kudri-list">
                             <ul className="list-group">
-                                <li className="list-group-item">Cras justo odio</li>
-                                <li className="list-group-item">Dapibus ac facilisis in</li>
-                                <li className="list-group-item">Morbi leo risus</li>
-                                <li className="list-group-item">Porta ac consectetur ac</li>
-                                {/* <li className="list-group-item">Vestibulum at eros</li> */}
+                                <li className="list-group-item">Hair and color</li>
+                                <li className="list-group-item">Nails</li>
+                                <li className="list-group-item">Lashes</li>
+                                <li className="list-group-item">Mens haircut</li>
+                                <li className="list-group-item">Makeup</li>
                             </ul>
                         </div>
                         <div className="col-6 kudri-list">
                             <ul className="list-group">
                                 <li className="list-group-item">
-                                    <img src={jumbotronMyPh} className="img-fluid" alt="Responsive image"/>
+                                    <img src={jumbotronMyPh} className="img-fluid mx-auto d-block" alt="Responsive image"/>
                                 </li>
                                 {/* <li className="list-group-item">Vestibulum at eros</li> */}
                             </ul>
