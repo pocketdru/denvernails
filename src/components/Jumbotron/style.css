@@ -1,10 +1,11 @@
-.jumbotron {
+.jumbotron-kudri {
     background-image: url("./salon3.png");
     height: 530px;
 }
 
-.jumbotron-kudri {
+.jumbotron {
     height: 530px;
+    background-color: inherit;
 }
 
 .jumbotron .container {
