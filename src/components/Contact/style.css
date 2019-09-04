@@ -1,5 +1,6 @@
 .contact-kudri {
     background: url("./cosmetic-eyeshadow-make-up-208052.png");
+    font-family: "Quicksand";
 }
 
 .contact-kudri > .container {
@@ -10,4 +11,13 @@ iframe {
     width: 400px;
     height: 248px;
     border: 0px;
+}
+
+.contact-list {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.contact-list a {
+    color: #ffffff;
 }
