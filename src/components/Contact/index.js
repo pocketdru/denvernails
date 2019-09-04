@@ -1,5 +1,9 @@
 import React from "react";
 import "./style.css";
+import Phone from "./smartphone-call.png";
+import Facebook from "./facebook.png";
+import Instagram from "./instagram.png";
+import Position from "./position.png";
 
 function Contacts() {
     return (
@@ -13,20 +17,20 @@ function Contacts() {
                 <div className="col-4">
                     <ul class="list-unstyled">
                         <li class="media">
-                            <img src="..." class="mr-3" alt="..."/>
+                            <img src={Phone} class="mr-3" alt="Phone"/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">To schedule appoinment please give me a call!</h5>
                             <h6 className="mt-0 mb-1">(720)-445-6060</h6>
                             </div>
                         </li>
-                        <li class="media my-4">
-                            <img src="..." class="mr-3" alt="..."/>
+                        <li class="media">
+                            <img src={Position} class="mr-3" alt="Location"/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">List-based media object</h5>
                             </div>
                         </li>
                         <li class="media">
-                            <img src="..." class="mr-3" alt="..."/>
+                            <img src={Instagram} class="mr-3" alt="Instagram"/>
                             <div class="media-body">
                             <h5 class="mt-0 mb-1">List-based media object</h5>
                             </div>
