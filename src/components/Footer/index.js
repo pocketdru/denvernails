@@ -3,21 +3,16 @@ import "./style.css";
 
 function Footer() {
     return (
-        <div className="row navbar-kudri">
-            <div className="col-3">
-                <a href="#" className="salon-name">
-                    <h1 className="text-center">Kudri Salon</h1>
-                </a>
+        <div className="row navbar-kudri footer-kudri justify-content-end">
+            <div className="col-1">
+                <h6 className="align-middle">&copy;</h6>
             </div>
-            <div className="col-9">
-            <ul className="nav justify-content-end">
-                <li className="nav-item">
-                    <a className="nav-link active" href="#">Porfolio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Contacts</a>
-                </li>
-            </ul>
+            <div className="col-8">
+                <div>Icons made by 
+                    <a href="https://www.flaticon.com/authors/freepik" title="Freepik" className="align-middle">Freepik</a> 
+                    from
+                    <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                </div>
             </div>
         </div>
     )
