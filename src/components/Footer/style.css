@@ -1,8 +1,13 @@
 .footer-kudri {
     height: 68px;
+    color: #ffffff;
 }
 
 .footer-kudri {
     text-align: center;
 }
 
+.footer-kudri .col-6 {
+    font-size: 10.5px;
+    font-family: "Quicksand";
+}
