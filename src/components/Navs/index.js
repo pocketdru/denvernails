@@ -12,7 +12,7 @@ function Navbar() {
             <div className="col-9">
             <ul className="nav justify-content-end">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">Porfolio</a>
+                    <a className="nav-link active" href="/portfolio">Porfolio</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Contacts</a>
