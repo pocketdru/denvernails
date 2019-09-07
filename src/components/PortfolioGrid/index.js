@@ -2,6 +2,16 @@ import React, { Component } from "react";
 import "./style.css";
 
 class PortfolioGrid extends Component {
+    state =  {
+        notActive: "list-group-item list-group-item-action"
+    }
+
+    toggleClass = () => {
+        let myClass = this.state.notActive;
+        console.log(myClass);
+        return myClass === "list-group-item list-group-item-action" ? 
+        this.setState({notActive: "list-group-item list-group-item-action active"}) : this.setState({notActive: "list-group-item list-group-item-action"})
+    }
 
     render () {
     return (
