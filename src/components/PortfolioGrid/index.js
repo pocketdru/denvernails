@@ -3,14 +3,31 @@ import "./style.css";
 
 class PortfolioGrid extends Component {
     state =  {
-        notActive: "list-group-item list-group-item-action"
+        homeClass: "list-group-item list-group-item-action home",
+        progileClass: "list-group-item list-group-item-action profile",
+        messagesClass: "list-group-item list-group-item-action message",
+        settingsClass: "list-group-item list-group-item-action settings",
+        notActive: "list-group-item list-group-item-action",
+        homeId: "list-home-list"
     }
 
-    toggleClass = () => {
-        let myClass = this.state.notActive;
-        console.log(myClass);
-        return myClass === "list-group-item list-group-item-action" ? 
-        this.setState({notActive: "list-group-item list-group-item-action active"}) : this.setState({notActive: "list-group-item list-group-item-action"})
+    toggleClass(n) {
+        console.log(n);
+        // console.log(e.target.id);
+
+        console.log(this)
+        console.log(this.state.homeClass);
+        // // console.log(myId);
+        // console.log(myClass);
+        if (n === 1) {
+            let myClass = this.state.homeClass;
+            return myClass === "list-group-item list-group-item-action home" ? 
+            this.setState({homeClass: "list-group-item list-group-item-action home active"}) : this.setState({homeClass: "list-group-item list-group-item-action home"}) 
+        } else if (n === 2) {
+            // Сделать так для всех компонентов листа
+        }
+        // return myClass === "list-group-item list-group-item-action" ? 
+        // this.setState({notActive: "list-group-item list-group-item-action active"}) : this.setState({notActive: "list-group-item list-group-item-action"})
     }
 
     render () {
@@ -18,10 +35,10 @@ class PortfolioGrid extends Component {
         <div className="row portfolio-grid">
             <div className="col-4">
                 <div className="list-group" id="list-tab" role="tablist">
-                <a className="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                <a className={this.state.notActive} onClick={() => this.toggleClass()} id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                <a className="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                <a className="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                <a className={this.state.homeClass} onClick={() => this.toggleClass(1)} id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                <a className={this.state.progileClass} onClick={() => this.toggleClass(2)} id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                <a className={this.state.messagesClass} onClick={() => this.toggleClass(3)} id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                <a className={this.state.settingsClass} onClick={() => this.toggleClass(4)} id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
                 </div>
             </div>
             <div className="col-8">
