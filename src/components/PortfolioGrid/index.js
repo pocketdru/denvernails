@@ -24,7 +24,17 @@ class PortfolioGrid extends Component {
             return myClass === "list-group-item list-group-item-action home" ? 
             this.setState({homeClass: "list-group-item list-group-item-action home active"}) : this.setState({homeClass: "list-group-item list-group-item-action home"}) 
         } else if (n === 2) {
-            // Сделать так для всех компонентов листа
+            let myClass = this.state.progileClass;
+            return myClass === "list-group-item list-group-item-action profile" ? 
+            this.setState({progileClass: "list-group-item list-group-item-action profile active"}) : this.setState({progileClass: "list-group-item list-group-item-action profile"}) 
+        } else if (n === 3) {
+            let myClass = this.state.messagesClass;
+            return myClass === "list-group-item list-group-item-action message" ? 
+            this.setState({messagesClass: "list-group-item list-group-item-action message active"}) : this.setState({messagesClass: "list-group-item list-group-item-action message"}) 
+        } else if (n === 4) {
+            let myClass = this.state.settingsClass;
+            return myClass === "list-group-item list-group-item-action settings" ? 
+            this.setState({settingsClass: "list-group-item list-group-item-action settings active"}) : this.setState({settingsClass: "list-group-item list-group-item-action settings"}) 
         }
         // return myClass === "list-group-item list-group-item-action" ? 
         // this.setState({notActive: "list-group-item list-group-item-action active"}) : this.setState({notActive: "list-group-item list-group-item-action"})
