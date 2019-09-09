@@ -19,6 +19,14 @@ class PortfolioGrid extends Component {
         console.log(this.state.homeClass);
         // // console.log(myId);
         // console.log(myClass);
+
+        this.setState({
+            homeClass: "list-group-item list-group-item-action home",
+            progileClass: "list-group-item list-group-item-action profile",
+            messagesClass: "list-group-item list-group-item-action message",
+            settingsClass: "list-group-item list-group-item-action settings",
+        })
+
         if (n === 1) {
             let myClass = this.state.homeClass;
             return myClass === "list-group-item list-group-item-action home" ? 
@@ -53,10 +61,10 @@ class PortfolioGrid extends Component {
             </div>
             <div className="col-8">
                 <div className="tab-content" id="nav-tabContent">
-                <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
-                <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
-                <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-                <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
+                <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+                <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
+                <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
                 </div>
             </div>
         </div>
