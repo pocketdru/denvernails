@@ -1,23 +1,14 @@
 import React from "react";
 import "./style.css";
+import img1 from "./hair1.png";
 
 function Hair() {
     return (
-        <div className="row navbar-kudri">
-            <div className="col-3">
-                <a href="#" className="salon-name">
-                    <h1 className="text-center">Kudri Salon</h1>
+        <div className="row hair">
+            <div className="col-4">
+                <a href="./hair1.png">
+                    <img src={img1}></img>
                 </a>
-            </div>
-            <div className="col-9">
-            <ul className="nav justify-content-end">
-                <li className="nav-item">
-                    <a className="nav-link active" href="/portfolio">Porfolio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Contacts</a>
-                </li>
-            </ul>
             </div>
         </div>
     )
