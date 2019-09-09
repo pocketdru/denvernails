@@ -3,46 +3,79 @@ import "./style.css";
 
 class PortfolioGrid extends Component {
     state =  {
+
+        //side bar class states
         homeClass: "list-group-item list-group-item-action home",
         progileClass: "list-group-item list-group-item-action profile",
         messagesClass: "list-group-item list-group-item-action message",
         settingsClass: "list-group-item list-group-item-action settings",
-        notActive: "list-group-item list-group-item-action",
-        homeId: "list-home-list"
+
+        //selected side's bar data states
+        dataHome: "tab-pane fade home",
+        dataProfile: "tab-pane fade profile",
+        dataMessages: "tab-pane fade messages",
+        dataSettings: "tab-pane fade settings"
+
     }
 
     toggleClass(n) {
-        console.log(n);
-        // console.log(e.target.id);
-
-        console.log(this)
-        console.log(this.state.homeClass);
-        // // console.log(myId);
-        // console.log(myClass);
-
         this.setState({
             homeClass: "list-group-item list-group-item-action home",
             progileClass: "list-group-item list-group-item-action profile",
             messagesClass: "list-group-item list-group-item-action message",
             settingsClass: "list-group-item list-group-item-action settings",
+
+            dataHome: "tab-pane fade home",
+            dataProfile: "tab-pane fade profile",
+            dataMessages: "tab-pane fade messages",
+            dataSettings: "tab-pane fade settings"            
         })
 
         if (n === 1) {
             let myClass = this.state.homeClass;
             return myClass === "list-group-item list-group-item-action home" ? 
-            this.setState({homeClass: "list-group-item list-group-item-action home active"}) : this.setState({homeClass: "list-group-item list-group-item-action home"}) 
+            this.setState({
+                homeClass: "list-group-item list-group-item-action home active",
+                dataHome: "tab-pane fade home show active"
+
+            }) : 
+            this.setState({
+                homeClass: "list-group-item list-group-item-action home",
+                dataHome: "tab-pane fade home"
+            }) 
         } else if (n === 2) {
             let myClass = this.state.progileClass;
             return myClass === "list-group-item list-group-item-action profile" ? 
-            this.setState({progileClass: "list-group-item list-group-item-action profile active"}) : this.setState({progileClass: "list-group-item list-group-item-action profile"}) 
+            this.setState({
+                progileClass: "list-group-item list-group-item-action profile active",
+                dataProfile: "tab-pane fade profile show active"
+            }) : 
+            this.setState({
+                progileClass: "list-group-item list-group-item-action profile",
+                dataProfile: "tab-pane fade profile"
+            }) 
         } else if (n === 3) {
             let myClass = this.state.messagesClass;
             return myClass === "list-group-item list-group-item-action message" ? 
-            this.setState({messagesClass: "list-group-item list-group-item-action message active"}) : this.setState({messagesClass: "list-group-item list-group-item-action message"}) 
+            this.setState({
+                messagesClass: "list-group-item list-group-item-action message active",
+                dataMessages: "tab-pane fade messages show active"
+            }) : 
+            this.setState({
+                messagesClass: "list-group-item list-group-item-action message",
+                dataMessages: "tab-pane fade messages"
+            }) 
         } else if (n === 4) {
             let myClass = this.state.settingsClass;
             return myClass === "list-group-item list-group-item-action settings" ? 
-            this.setState({settingsClass: "list-group-item list-group-item-action settings active"}) : this.setState({settingsClass: "list-group-item list-group-item-action settings"}) 
+            this.setState({
+                settingsClass: "list-group-item list-group-item-action settings active",
+                dataSettings: "tab-pane fade settings show active"
+            }) : 
+            this.setState({
+                settingsClass: "list-group-item list-group-item-action settings",
+                dataSettings: "tab-pane fade settings"
+            }) 
         }
         // return myClass === "list-group-item list-group-item-action" ? 
         // this.setState({notActive: "list-group-item list-group-item-action active"}) : this.setState({notActive: "list-group-item list-group-item-action"})
@@ -61,10 +94,10 @@ class PortfolioGrid extends Component {
             </div>
             <div className="col-8">
                 <div className="tab-content" id="nav-tabContent">
-                <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
-                <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
-                <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
-                <div className="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
+                <div className={this.state.dataHome} id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
+                <div className={this.state.dataProfile} id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
+                <div className={this.state.dataMessages} id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
+                <div className={this.state.dataSettings} id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
                 </div>
             </div>
         </div>
