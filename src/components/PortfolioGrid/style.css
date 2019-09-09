@@ -1,4 +1,4 @@
 .portfolio-grid {
-    height: 400px;
-    background-color: aqua;
+    min-height: 500px;
+    background: url("./full-bloom.png");
 }
