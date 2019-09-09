@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
+import Hair from "../Hair";
 
 class PortfolioGrid extends Component {
     state =  {
@@ -86,15 +87,17 @@ class PortfolioGrid extends Component {
         <div className="row portfolio-grid">
             <div className="col-2">
                 <div className="list-group" id="list-tab" role="tablist">
-                <a className={this.state.hairClass} onClick={() => this.toggleClass(1)} id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                <a className={this.state.nailsClass} onClick={() => this.toggleClass(2)} id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                <a className={this.state.lashesClass} onClick={() => this.toggleClass(3)} id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                <a className={this.state.makeupClass} onClick={() => this.toggleClass(4)} id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                <a className={this.state.hairClass} onClick={() => this.toggleClass(1)} id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Hair</a>
+                <a className={this.state.nailsClass} onClick={() => this.toggleClass(2)} id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Nails</a>
+                <a className={this.state.lashesClass} onClick={() => this.toggleClass(3)} id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Lashes</a>
+                <a className={this.state.makeupClass} onClick={() => this.toggleClass(4)} id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Makeup</a>
                 </div>
             </div>
             <div className="col-10">
                 <div className="tab-content" id="nav-tabContent">
-                <div className={this.state.dataHair} id="list-home" role="tabpanel" aria-labelledby="list-home-list">1</div>
+                <div className={this.state.dataHair} id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                    <Hair/>
+                </div>
                 <div className={this.state.dataNails} id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">2</div>
                 <div className={this.state.dataLashes} id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">3</div>
                 <div className={this.state.dataMakeup} id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">4</div>
