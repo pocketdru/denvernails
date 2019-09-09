@@ -11,48 +11,75 @@ import img7 from "./hair7.png";
 function Hair() {
     return (
         <div className="row hair">
-        <div className="row mb-2">
+        {/* <div className="row mt-2 mb-2">
             <div className="col-4">
-                <a href="./hair1.png">
+                <a target="_blank" href={img1}>
                     <img src={img1}></img>
                 </a>
             </div>
             <div className="col-4">
-                <a href="./hair2.png">
+                <a target="_blank" href={img2}>
                     <img src={img2}></img>
                 </a>
             </div>
             <div className="col-4">
-                <a href="./hair3.png">
+                <a target="_blank" href={img3}>
                     <img src={img3}></img>
                 </a>
             </div>
         </div>
         <div className="row mb-2">
             <div className="col-4">
-                <a href="./hair4.png">
+                <a target="_blank" href={img4}>
                     <img src={img4}></img>
                 </a>
             </div>
             <div className="col-4">
-                 <a href="./hair5.png">
+                 <a target="_blank" href={img5}>
                     <img src={img5}></img>
                 </a>
             </div>
             <div className="col-4">
-                <a href="./hair6.png">
+                <a target="_blank" href={img6}>
                     <img src={img6}></img>
                 </a>
             </div>
         </div>
         <div className="row mb-2">
             <div className="col-4">
-                <a href="./hair7.png">
+                <a target="_blank" href={img7}>
                     <img src={img7}></img>
                 </a>
             </div>
-        </div>
-        </div>
+        </div> */}
+<div className="card-group mt-3 mb-3">
+  <div className="card ml-3">
+    <img src={img1} className="card-img-top" alt="haircut"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img2} className="card-img-top" alt="haircut"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img3} className="card-img-top" alt="haircut"/>
+  </div>
+</div>
+<div className="card-group mb-3">
+  <div className="card ml-3">
+    <img src={img4} className="card-img-top" alt="haircut"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img5} className="card-img-top" alt="haircut"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img6} className="card-img-top" alt="haircut"/>
+  </div>
+</div>
+<div className="card-group mb-3">
+  <div className="card ml-3">
+    <img src={img7} className="card-img-top" alt="haircut"/>
+    </div>
+</div>
+</div>
     )
 }
 
