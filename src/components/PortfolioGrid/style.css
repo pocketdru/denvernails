@@ -1,4 +1,5 @@
 .portfolio-grid {
     min-height: 500px;
-    background: url("./full-bloom.png");
+    background: rgba(72, 72, 72, 0.1);
+    box-shadow: 1px 0px 15px 0px;
 }
