@@ -2,14 +2,19 @@
     min-height: 500px;
     background: rgba(72, 72, 72, 0.1);
     box-shadow: 1px 0px 15px 0px;
+    /* color: #ffffff; */
+    font-family: "Quicksand";
 }
 
 .portfolio-grid .col-2 {
+    font-family: "Quicksand";
     background: rgba(72, 72, 72, 0.1);
     box-shadow: 1px 0px 5px 0px;}
 
 /* .portfolio-grid  */
 
 .portfolio-grid a {
-    border: none;
+    color: rgb(72, 72, 72);
+    border-bottom: 1px solid rgb(72, 72, 72);
+    background: inherit;
 }
