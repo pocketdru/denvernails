@@ -1,19 +1,19 @@
 import React from "react";
 import "./style.css";
-// import img1 from "./hair1.png";
-// import img2 from "./hair2.png";
-// import img3 from "./hair3.png";
-// import img4 from "./hair4.png";
-// import img5 from "./hair5.png";
-// import img6 from "./hair6.png";
-// import img7 from "./hair7.png";
+import img1 from "./img/nail1.png";
+import img2 from "./img/nail1.png";
+import img3 from "./img/nail1.png";
+import img4 from "./img/nail1.png";
+import img5 from "./img/nail1.png";
+import img6 from "./img/nail1.png";
+import img7 from "./img/nail1.png";
 
 function Nails() {
     return (
         <div className="row hair">
 
-{/* <div className="card-group mt-3 mb-3"> */}
-  {/* <div className="card ml-3">
+<div className="card-group mt-3 mb-3">
+  <div className="card ml-3">
     <img src={img1} className="card-img-top" alt="haircut"/>
   </div>
   <div className="card ml-3">
@@ -38,7 +38,7 @@ function Nails() {
   <div className="card ml-3">
     <img src={img7} className="card-img-top" alt="haircut"/>
     </div>
-</div> */}
+</div>
 </div>
     )
 }
