@@ -24,65 +24,65 @@ function Nails() {
 
 <div className="card-group mt-3 mb-3">
   <div className="card ml-3">
-    <img src={img1} className="card-img-top" alt="haircut"/>
+    <img src={img1} className="card-img-top" alt="nails"/>
   </div>
   <div className="card ml-3">
-    <img src={img2} className="card-img-top" alt="haircut"/>
+    <img src={img2} className="card-img-top" alt="nails"/>
   </div>
   <div className="card ml-3">
-    <img src={img3} className="card-img-top" alt="haircut"/>
-  </div>
-</div>
-<div className="card-group mb-3">
-  <div className="card ml-3">
-    <img src={img4} className="card-img-top" alt="haircut"/>
-  </div>
-  <div className="card ml-3">
-    <img src={img5} className="card-img-top" alt="haircut"/>
-  </div>
-  <div className="card ml-3">
-    <img src={img6} className="card-img-top" alt="haircut"/>
+    <img src={img3} className="card-img-top" alt="nails"/>
   </div>
 </div>
 <div className="card-group mb-3">
   <div className="card ml-3">
-        <img src={img7} className="card-img-top" alt="haircut"/>
+    <img src={img4} className="card-img-top" alt="nails"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img5} className="card-img-top" alt="nails"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img6} className="card-img-top" alt="nails"/>
+  </div>
+</div>
+<div className="card-group mb-3">
+  <div className="card ml-3">
+        <img src={img7} className="card-img-top" alt="nails"/>
     </div>
     <div className="card ml-3">
-        <img src={img8} className="card-img-top" alt="haircut"/>
+        <img src={img8} className="card-img-top" alt="nails"/>
     </div>
     <div className="card ml-3">
-        <img src={img9} className="card-img-top" alt="haircut"/>
+        <img src={img9} className="card-img-top" alt="nails"/>
     </div>
 </div>
 <div className="card-group mb-3">
   <div className="card ml-3">
-    <img src={img10} className="card-img-top" alt="haircut"/>
+    <img src={img10} className="card-img-top" alt="nails"/>
   </div>
   <div className="card ml-3">
-    <img src={img11} className="card-img-top" alt="haircut"/>
+    <img src={img11} className="card-img-top" alt="nails"/>
   </div>
   <div className="card ml-3">
-    <img src={img12} className="card-img-top" alt="haircut"/>
-  </div>
-</div>
-<div className="card-group mb-3">
-  <div className="card ml-3">
-    <img src={img13} className="card-img-top" alt="haircut"/>
-  </div>
-  <div className="card ml-3">
-    <img src={img14} className="card-img-top" alt="haircut"/>
-  </div>
-  <div className="card ml-3">
-    <img src={img15} className="card-img-top" alt="haircut"/>
+    <img src={img12} className="card-img-top" alt="nails"/>
   </div>
 </div>
 <div className="card-group mb-3">
   <div className="card ml-3">
-    <img src={img16} className="card-img-top" alt="haircut"/>
+    <img src={img13} className="card-img-top" alt="nails"/>
   </div>
   <div className="card ml-3">
-    <img src={img17} className="card-img-top" alt="haircut"/>
+    <img src={img14} className="card-img-top" alt="nails"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img15} className="card-img-top" alt="nails"/>
+  </div>
+</div>
+<div className="card-group mb-3">
+  <div className="card ml-3">
+    <img src={img16} className="card-img-top" alt="nails"/>
+  </div>
+  <div className="card ml-3">
+    <img src={img17} className="card-img-top" alt="nails"/>
   </div>
 </div>
 </div>
