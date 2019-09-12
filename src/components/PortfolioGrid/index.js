@@ -89,23 +89,23 @@ class PortfolioGrid extends Component {
         <div className="row portfolio-grid">
             <div className="col-2">
                 <div className="list-group" id="list-tab" role="tablist">
-                <ul className="list-group">
-                    <li className="list-group-item">
+                <ul className="list-unstyled">
+                    <li>
                         <a className={this.state.hairClass} onClick={() => this.toggleClass(1)} id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
                             Hair
                         </a>
                     </li>
-                    <li className="list-group-item">
+                    <li>
                         <a className={this.state.nailsClass} onClick={() => this.toggleClass(2)} id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
                             Nails
                         </a>
                     </li>
-                    <li className="list-group-item">
+                    <li>
                         <a className={this.state.lashesClass} onClick={() => this.toggleClass(3)} id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
                             Lashes
                         </a>
                     </li>
-                    <li className="list-group-item">
+                    <li>
                         <a className={this.state.makeupClass} onClick={() => this.toggleClass(4)} id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
                             Makeup
                         </a>
