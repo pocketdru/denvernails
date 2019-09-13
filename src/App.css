@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Quicksand&display=swap');
 
+html,
+body {
+  height: 100%;
+}
+
+body #root, #root>.container {
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
