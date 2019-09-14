@@ -19,7 +19,7 @@ function Contacts() {
                         <li className="media mb-3">
                             <img src={Phone} className="mr-3" alt="Phone"/>
                             <div className=" mb-1-body">
-                            <h5 className="mt-0 mb-1">To schedule appoinment please give me a call!</h5>
+                            <h6 className="mt-0 mb-1">To schedule appoinment please give me a call!</h6>
                             <h6 className="mt-0 mb-1">(720)-445-6060</h6>
                             </div>
                         </li>

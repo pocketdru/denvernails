@@ -57,9 +57,9 @@ function Jumbotron() {
                             </li>
                             </ul>
                     <div className="row kudri-button">
-                        <div className="col-6 mt-4 mb-2">
+                        <div className="col-6 mt-4 mb-2 p1">
                             <a href="/portfolio">
-                                <button type="button" className="btn btn-secondary btn-sm">View Portfolio</button>
+                                <button type="button" className="btn btn-secondary btn-sm pl-3 pr-3 pt-2 pb-2">View Portfolio</button>
                             </a>
                         </div>
                     </div>
