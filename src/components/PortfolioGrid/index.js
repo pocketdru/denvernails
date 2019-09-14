@@ -21,6 +21,14 @@ class PortfolioGrid extends Component {
 
     }
 
+    componentDidMount() {
+        this.setState({
+            hairClass: "list-group-item list-group-item-action hair active",
+            dataHair: "tab-pane fade hair show active"
+
+        });
+    }
+
     toggleClass(n) {
         this.setState({
             hairClass: "list-group-item list-group-item-action hair",
