@@ -58,7 +58,9 @@ function Jumbotron() {
                             </ul>
                             <div className="row kudri-button justify-content-center">
                         <div className="col-6 mt-4 mb-2">
-                            <button type="button" className="btn btn-secondary btn-lg">View Portfolio</button>
+                            <a href="/portfolio">
+                                <button type="button" className="btn btn-secondary btn-lg">View Portfolio</button>
+                            </a>
                         </div>
                     </div>
                         </div>

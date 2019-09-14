@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className="row navbar-kudri">
             <div className="col-3">
-                <a href="#" className="salon-name">
+                <a href="/" className="salon-name">
                     <h1 className="text-center">Kudri Salon</h1>
                 </a>
             </div>
@@ -13,9 +13,6 @@ function Navbar() {
             <ul className="nav justify-content-end">
                 <li className="nav-item">
                     <a className="nav-link active" href="/portfolio">Porfolio</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Contacts</a>
                 </li>
             </ul>
             </div>

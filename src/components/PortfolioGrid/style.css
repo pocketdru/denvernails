@@ -23,3 +23,11 @@
     background-color: #FFC0CB;
     border: inherit;
 }
+
+/* .portfolio-grid .tab-content .card {
+    background: url("./full-bloom.png")
+} */
+
+.portfolio-grid .tab-content img {
+    background: url("./full-bloom.png")
+}
