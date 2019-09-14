@@ -26,40 +26,40 @@ function Jumbotron() {
                             </ul> */}
                             <ul className="list-unstyled align-middle">
                             <li className="media mb-2">
-                                <img src={HairDye} className="mr-3" alt="hair dye"/>
+                                <img src={HairDye} className="mr-4" alt="hair dye"/>
                                 <div className="media-body">
                                 <h5 className="mt-0 mb-1">Hair and color</h5>
                                 </div>
                             </li>
                             <li className="media mb-2">
-                                <img src={NailPolish} className="mr-3" alt="nail polish"/>
+                                <img src={NailPolish} className="mr-4" alt="nail polish"/>
                                 <div className="media-body">
                                 <h5 className="mt-0 mb-1">Nails</h5>
                                 </div>
                             </li>
                             <li className="media mb-2">
-                                <img src={EyeLashes} className="mr-3" alt="eye lashes"/>
+                                <img src={EyeLashes} className="mr-4" alt="eye lashes"/>
                                 <div className="media-body">
                                 <h5 className="mt-0 mb-1">Lashes</h5>
                                 </div>
                             </li>
                             <li className="media mb-2">
-                                <img src={Comb} className="mr-3" alt="comb"/>
+                                <img src={Comb} className="mr-4" alt="comb"/>
                                 <div className="media-body">
                                 <h5 className="mt-0 mb-1">Mens haircut</h5>
                                 </div>
                             </li>
                             <li className="media mb-2">
-                                <img src={EyeShadow} className="mr-3" alt="eye shadow"/>
+                                <img src={EyeShadow} className="mr-4" alt="eye shadow"/>
                                 <div className="media-body">
                                 <h5 className="mt-0 mb-1">Makeup</h5>
                                 </div>
                             </li>
                             </ul>
-                            <div className="row kudri-button justify-content-center">
+                    <div className="row kudri-button">
                         <div className="col-6 mt-4 mb-2">
                             <a href="/portfolio">
-                                <button type="button" className="btn btn-secondary btn-lg">View Portfolio</button>
+                                <button type="button" className="btn btn-secondary btn-sm">View Portfolio</button>
                             </a>
                         </div>
                     </div>
