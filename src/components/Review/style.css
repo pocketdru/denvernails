@@ -1,3 +1,8 @@
 .review-kudri {
     min-height: 100px;
 }
+
+.review-kudri .list-group-item  {
+    border: none;
+    padding: 0px;
+}
