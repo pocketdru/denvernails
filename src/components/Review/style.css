@@ -5,4 +5,11 @@
 .review-kudri .list-group-item  {
     border: none;
     padding: 0px;
+    background: inherit;
+}
+
+.list-group-item img {
+    border-radius: 100%;
+    border: 7px solid #FFC0CB;
+
 }
