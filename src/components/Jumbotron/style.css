@@ -28,10 +28,17 @@
 
 .kudri-button .btn {
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 .kudri-button .btn:hover {
     background-color: #FFC0CB;
     color: rgba(72, 72, 72, 0.7);
+}
+
+.kudri-button .btn:active {
+    filter: brightness(80%);
+    position: relative;
+    top: 1px;
+    border: none;
 }
