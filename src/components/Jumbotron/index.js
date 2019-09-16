@@ -67,7 +67,7 @@ function Jumbotron() {
                         <div className="col-6 kudri-list">
                             <ul className="list-group">
                                 <li className="list-group-item">
-                                    <img src={JumbotronMyPh} className="img-fluid mx-auto d-block" alt="Responsive image"/>
+                                    <img src={JumbotronMyPh} className="img-fluid mx-auto d-block" alt="Responsive"/>
                                 </li>
                                 {/* <li className="list-group-item">Vestibulum at eros</li> */}
                             </ul>
